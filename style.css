@@ -200,6 +200,8 @@ section { margin-bottom: 56px; position: relative; }
 }
 .contact-banner .item strong { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; opacity: 0.85; margin-bottom: 6px; }
 .contact-banner .item { font-size: 1.1rem; font-weight: bold; }
+a.contact-banner .item, .contact-banner a.item { color: inherit; text-decoration: none; transition: opacity 0.2s; }
+.contact-banner a.item:hover { opacity: 0.75; text-decoration: underline; }
 
 footer.page-footer { text-align: center; font-size: 0.85rem; color: #8a8a8a; padding: 10px 0 30px; }
 
